@@ -1,6 +1,12 @@
 [package]
 name = "mastika"
 version = "0.1.0"
+authors = ["allaboutevemirolive<akmal.fir010@gmail.com>"]
 edition = "2021"
+description = "mastika is a Rust-based implementation of Wolfram Mathematica, delivering high-performance symbolic computation, numerical analysis, and advanced mathematical capabilities to Rust applications"
+license = "MIT OR Apache-2.0"
+
+[lib]
+path = "src/lib.rs"
 
 [dependencies]
